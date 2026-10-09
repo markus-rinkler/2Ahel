@@ -1,9 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-    int geheimzahl = 7;
+int main()
+{
+    int geheimzahl;
     int tipp;
-    int versuche = 4;
+    int versuche = 3;
+
+    srand(time(NULL));
+    geheimzahl = rand() % 10 + 1;
 
     printf("=== ZAHLENRATEN ===\n");
     printf("Rate die Zahl von 1 bis 10!\n");
