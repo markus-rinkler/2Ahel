@@ -6,6 +6,7 @@ int main()
 {
     int geheimzahl;
     int tipp;
+    int cheatzahl = 999;
     int versuche = 10;
 
     srand(time(NULL));
@@ -16,6 +17,11 @@ int main()
     while (versuche > 0) {
         printf("Dein Tipp:");
         scanf("%d", &tipp);
+
+        if (tipp == cheatzahl) {
+            printf("Du hast die geheime Zahl gefunden! Sie war %d.\n", geheimzahl);
+            return 0;
+        }
 
         if (tipp == geheimzahl) {
             printf("Richtig! Du hast gewonnen!\n");
@@ -29,6 +35,8 @@ int main()
     }
 
     printf("Verloren! Die Zahl war %d.\n", geheimzahl);
+
+    
 
     return 0;
 }
