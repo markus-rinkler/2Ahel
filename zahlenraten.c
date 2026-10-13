@@ -6,23 +6,24 @@ int main()
 {
     int geheimzahl;
     int tipp;
-    int versuche = 3;
+    int versuche = 10;
 
     srand(time(NULL));
     geheimzahl = rand() % 10 + 1;
 
-    printf("=== ZAHLENRATEN ===\n");
     printf("Rate die Zahl von 1 bis 10!\n");
 
     while (versuche > 0) {
-        printf("Dein Tipp: ");
+        printf("Dein Tipp:");
         scanf("%d", &tipp);
 
         if (tipp == geheimzahl) {
             printf("Richtig! Du hast gewonnen!\n");
             return 0;
-        } else {
-            versuche--;
+        }
+         else 
+        {
+            versuche;
             printf("Falsch! Noch %d Versuche.\n", versuche);
         }
     }
