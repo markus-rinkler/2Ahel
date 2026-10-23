@@ -5,9 +5,9 @@ int main()
     const char secret []= "REDBULL4EVER";
     char guess;
 
-    printf("Bitte einen Buchstaben eingeben:");
+    printf("Buchstabe eingeben:");
     if ( scanf(" %c", &guess) != 1) {
-        printf("Fehler beim Einlesen des Buchstabens\n");
+        printf("Fehler\n");
         return 1;
     }
 
