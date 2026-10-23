@@ -36,9 +36,8 @@ int main()
     for (int i = 0; i < len; i++) {
         printf("%c ", guessed[i]);
     }
-    printf("\n");
 
-    printf("Anzahl Treffer: %d\n", hits);
+    printf("\nAnzahl Treffer: %d\n", hits);
 
     return 0;
 }
