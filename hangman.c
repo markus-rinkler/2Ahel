@@ -1,5 +1,18 @@
 #include <stdio.h>
 
+int count_hits(const char *secret[], const char *guessed, int len) {
+    int hits = 0;
+    for (int i = 0; i < len; i++) {
+        if (secret[i] == guessed[i]) {
+            hits++;
+        }
+    }
+    return hits;
+}
+
+
+
+
 int main()
 {
     const char secret []= "REDBULL4EVER";
@@ -34,7 +47,7 @@ int main()
     }
 
     for (int i = 0; i < len; i++) {
-        printf("%c ", guessed[i]);
+        printf("%c", guessed[i]);
     }
 
     printf("\nAnzahl Treffer: %d\n", hits);
