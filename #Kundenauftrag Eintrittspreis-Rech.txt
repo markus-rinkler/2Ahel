@@ -1,0 +1,84 @@
+# **Kundenauftrag: Eintrittspreis-Rechner für ein Schwimmbad**
+
+Auftraggeber: Freibad Sonnental
+
+## **1. Ausgangssituation**
+
+Guten Tag!
+
+Ich betreibe ein kleines Freibad. Besonders an heißen Sommertagen kommen viele Besucher zu uns. An der Kassa müssen wir für jede Besuchergruppe den gesamten Eintrittspreis berechnen.
+
+Da dabei manchmal Fehler passieren, benötige ich ein kleines Programm, das uns diese Arbeit erleichtert.
+
+## **2. Mein Anliegen**
+
+Ich möchte ein Programm, mit dem meine Mitarbeiter schnell ausrechnen können, wie viel eine Besuchergruppe insgesamt bezahlen muss.
+
+Dabei sollen die unterschiedlichen Eintrittspreise für Erwachsene und Kinder berücksichtigt werden.
+
+## **3. Gewünschte Funktionen**
+
+Unsere Eintrittspreise sind:
+
+| Eintrittskarte            | Preis  |
+| ------------------------- | ------ |
+| Erwachsene (ab 16 Jahren) | 8,00 € |
+| Kinder (unter 16 Jahren)  | 4,50 € |
+
+Das Programm soll folgende Anforderungen erfüllen:
+
+- Den Gesamtpreis einer Besuchergruppe berechnen.
+- Die Anzahl der Erwachsenen und Kinder berücksichtigen.
+- Ab 5 Personen einen Gruppenrabatt von 10 % auf den gesamten Eintrittspreis gewähren.
+- Den ursprünglichen Preis, den Rabatt und den endgültigen Preis anzeigen.
+- Ungültige Eingaben, beispielsweise negative Personenzahlen, erkennen und eine entsprechende Fehlermeldung anzeigen.
+
+## **4. Bedienung**
+
+Meine Mitarbeiter sollen zunächst eingeben können, wie viele Erwachsene und wie viele Kinder das Freibad besuchen möchten.
+
+Anschließend soll das Programm automatisch den Gesamtpreis berechnen und übersichtlich anzeigen.
+
+Nach einer Berechnung soll der Mitarbeiter entscheiden können, ob er eine weitere Besuchergruppe abrechnen oder das Programm beenden möchte.
+
+## **5. Beispiel einer typischen Nutzung**
+
+Eine Familie kommt mit 2 Erwachsenen und 3 Kindern ins Freibad.
+
+Beispiel einer Abrechnung
+
+Erwachsene: 2 × 8,00 €
+
+**16,00 €**
+
+Kinder: 3 × 4,50 €
+
+**13,50 €**
+
+Zwischensumme
+
+29,50 €
+
+Gruppenrabatt (10 %)
+
+−2,95 €
+
+**Zu bezahlen**
+
+## **26,55 €**
+
+Da die Familie aus insgesamt 5 Personen besteht, erhält sie den Gruppenrabatt.
+
+## **6. Besondere Wünsche**
+
+Mir ist wichtig, dass das Programm einfach zu bedienen ist und die Preise immer mit zwei Nachkommastellen angezeigt werden.
+
+Wenn keine Personen angegeben werden, soll das Programm darauf hinweisen, dass mindestens eine Person benötigt wird.
+
+Außerdem möchte ich, dass meine Mitarbeiter mehrere Besuchergruppen hintereinander abrechnen können, ohne das Programm jedes Mal neu starten zu müssen.
+
+Vielen Dank! Ich freue mich auf Ihre Umsetzung.
+
+*Mit freundlichen Grüßen*
+
+**Die Geschäftsführung des Freibads Sonnental**
